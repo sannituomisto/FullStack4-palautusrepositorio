@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1haWphUG9wcGFuZW4iLCJpZCI6IjY1OWZlMjU2MmNjNGYyMWJlZTc0ODE4MyIsImlhdCI6MTcwNDk3OTk0N30.qySWIVYvRWpbfUQgOUyXMb3SEIN_1LJY34KD4EYkwoc
+
+{
+    "title": "Golf",
+    "author": "we",
+    "url": "www.golf.com",
+    "likes": 0,
+    "userId": "659fe2562cc4f21bee748183"
+}
